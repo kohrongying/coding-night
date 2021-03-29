@@ -24,8 +24,8 @@ class Test(TestCase):
   def test_format_row3(self):
     self.assertEqual(main.format_row([False, False, False]), '   ')
 
-  def test_concat_digits(self):
-    self.assertEqual(main.concat_digits(18),
+  def test_concat_digits_18(self):
+    self.assertEqual(main.concat_digits('18'),
                      [
                        '     _ ',
                        '  | |_|',
